@@ -121,7 +121,7 @@ Partial Class U2_Thread_Loop_Test
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button_Thread)
         Me.Name = "U2_Thread_Loop_Test"
-        Me.Size = New System.Drawing.Size(460, 134)
+        Me.Size = New System.Drawing.Size(511, 134)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
