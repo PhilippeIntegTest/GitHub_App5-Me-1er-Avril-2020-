@@ -29,7 +29,7 @@ Partial Class Thread_Test_With_Invoke
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(-1, 27)
+        Me.Button1.Location = New System.Drawing.Point(-1, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(279, 23)
         Me.Button1.TabIndex = 0
@@ -40,9 +40,9 @@ Partial Class Thread_Test_With_Invoke
         '
         Me.U2_Launch_UserControl_As_Thread1.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.U2_Launch_UserControl_As_Thread1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.U2_Launch_UserControl_As_Thread1.Location = New System.Drawing.Point(-1, 70)
+        Me.U2_Launch_UserControl_As_Thread1.Location = New System.Drawing.Point(13, 42)
         Me.U2_Launch_UserControl_As_Thread1.Name = "U2_Launch_UserControl_As_Thread1"
-        Me.U2_Launch_UserControl_As_Thread1.Size = New System.Drawing.Size(544, 274)
+        Me.U2_Launch_UserControl_As_Thread1.Size = New System.Drawing.Size(647, 299)
         Me.U2_Launch_UserControl_As_Thread1.TabIndex = 1
         '
         'Thread_Test_With_Invoke
@@ -50,7 +50,7 @@ Partial Class Thread_Test_With_Invoke
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(605, 450)
+        Me.ClientSize = New System.Drawing.Size(686, 365)
         Me.Controls.Add(Me.U2_Launch_UserControl_As_Thread1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Thread_Test_With_Invoke"

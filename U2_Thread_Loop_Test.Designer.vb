@@ -33,6 +33,7 @@ Partial Class U2_Thread_Loop_Test
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button_Thread
@@ -139,12 +140,23 @@ Partial Class U2_Thread_Loop_Test
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "Branch2: Commit1 - Label Bleu"
         '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(415, 66)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(175, 13)
+        Me.Label7.TabIndex = 11
+        Me.Label7.Text = "Branch2: Commit n°2"
+        '
         'U2_Thread_Loop_Test
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -174,4 +186,5 @@ Partial Class U2_Thread_Loop_Test
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
 End Class
