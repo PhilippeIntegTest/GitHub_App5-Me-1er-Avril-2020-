@@ -31,6 +31,7 @@ Partial Class U2_Thread_Loop_Test
         Me.TextBox3_Counter_Max = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button_Thread
@@ -117,12 +118,23 @@ Partial Class U2_Thread_Loop_Test
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Branch1: 1st Modif to commit [17h41]"
         '
+        'Label5
+        '
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(319, 19)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(175, 13)
+        Me.Label5.TabIndex = 9
+        Me.Label5.Text = "Branch1: Modif n°2 to commit [17h47]"
+        '
         'U2_Thread_Loop_Test
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -148,4 +160,5 @@ Partial Class U2_Thread_Loop_Test
     Friend WithEvents TextBox3_Counter_Max As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
 End Class
