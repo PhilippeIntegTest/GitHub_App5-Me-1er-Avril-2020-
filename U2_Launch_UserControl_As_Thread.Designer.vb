@@ -68,7 +68,7 @@ Partial Class U2_Launch_UserControl_As_Thread
         Me.U2_Thread_Loop_Test1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.U2_Thread_Loop_Test1.Location = New System.Drawing.Point(50, 97)
         Me.U2_Thread_Loop_Test1.Name = "U2_Thread_Loop_Test1"
-        Me.U2_Thread_Loop_Test1.Size = New System.Drawing.Size(460, 141)
+        Me.U2_Thread_Loop_Test1.Size = New System.Drawing.Size(460, 154)
         Me.U2_Thread_Loop_Test1.TabIndex = 2
         '
         'BackgroundWorker1
