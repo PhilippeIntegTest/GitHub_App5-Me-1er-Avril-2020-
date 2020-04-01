@@ -30,6 +30,7 @@ Partial Class U2_Thread_Loop_Test
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox3_Counter_Max = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button_Thread
@@ -44,7 +45,7 @@ Partial Class U2_Thread_Loop_Test
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(146, 53)
+        Me.TextBox1.Location = New System.Drawing.Point(143, 76)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(323, 20)
         Me.TextBox1.TabIndex = 1
@@ -54,7 +55,7 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(8, 56)
+        Me.Label1.Location = New System.Drawing.Point(5, 79)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(120, 13)
         Me.Label1.TabIndex = 2
@@ -64,7 +65,7 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(8, 82)
+        Me.Label2.Location = New System.Drawing.Point(5, 105)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(132, 13)
         Me.Label2.TabIndex = 4
@@ -72,7 +73,7 @@ Partial Class U2_Thread_Loop_Test
         '
         'TextBox_Loop
         '
-        Me.TextBox_Loop.Location = New System.Drawing.Point(146, 79)
+        Me.TextBox_Loop.Location = New System.Drawing.Point(143, 102)
         Me.TextBox_Loop.Name = "TextBox_Loop"
         Me.TextBox_Loop.Size = New System.Drawing.Size(323, 20)
         Me.TextBox_Loop.TabIndex = 3
@@ -82,7 +83,7 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(8, 108)
+        Me.Label3.Location = New System.Drawing.Point(5, 131)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(94, 13)
         Me.Label3.TabIndex = 6
@@ -90,7 +91,7 @@ Partial Class U2_Thread_Loop_Test
         '
         'TextBox3_Counter_Max
         '
-        Me.TextBox3_Counter_Max.Location = New System.Drawing.Point(146, 105)
+        Me.TextBox3_Counter_Max.Location = New System.Drawing.Point(143, 128)
         Me.TextBox3_Counter_Max.Name = "TextBox3_Counter_Max"
         Me.TextBox3_Counter_Max.Size = New System.Drawing.Size(76, 20)
         Me.TextBox3_Counter_Max.TabIndex = 5
@@ -106,12 +107,23 @@ Partial Class U2_Thread_Loop_Test
         Me.Button1.Text = "Loop High CPU Power + Display"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(65, Byte), Integer))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(270, 3)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(224, 13)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "Branch1: 1st Modif to commit [17h41]"
+        '
         'U2_Thread_Loop_Test
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox3_Counter_Max)
@@ -121,7 +133,7 @@ Partial Class U2_Thread_Loop_Test
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button_Thread)
         Me.Name = "U2_Thread_Loop_Test"
-        Me.Size = New System.Drawing.Size(511, 134)
+        Me.Size = New System.Drawing.Size(511, 148)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -135,4 +147,5 @@ Partial Class U2_Thread_Loop_Test
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox3_Counter_Max As TextBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label4 As Label
 End Class
