@@ -32,6 +32,8 @@ Partial Class U2_Thread_Loop_Test
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button_Thread
@@ -48,7 +50,7 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.TextBox1.Location = New System.Drawing.Point(143, 76)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(323, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(206, 20)
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.Text = "General info at Startup of the process"
         '
@@ -76,7 +78,7 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.TextBox_Loop.Location = New System.Drawing.Point(143, 102)
         Me.TextBox_Loop.Name = "TextBox_Loop"
-        Me.TextBox_Loop.Size = New System.Drawing.Size(323, 20)
+        Me.TextBox_Loop.Size = New System.Drawing.Size(206, 20)
         Me.TextBox_Loop.TabIndex = 3
         Me.TextBox_Loop.Text = "Animation From Loop"
         '
@@ -112,7 +114,7 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(270, 3)
+        Me.Label4.Location = New System.Drawing.Point(366, 9)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(224, 13)
         Me.Label4.TabIndex = 8
@@ -122,11 +124,31 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(319, 19)
+        Me.Label5.Location = New System.Drawing.Point(415, 25)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(175, 13)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Branch1: Modif n°2 to commit [17h47]"
+        '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.Aqua
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(366, 49)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(224, 13)
+        Me.Label6.TabIndex = 10
+        Me.Label6.Text = "Branch2: Commit1 - Label Bleu"
+        '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(415, 66)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(175, 13)
+        Me.Label7.TabIndex = 11
+        Me.Label7.Text = "Branch2: Commit n°2"
         '
         'U2_Thread_Loop_Test
         '
@@ -134,6 +156,8 @@ Partial Class U2_Thread_Loop_Test
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
@@ -145,7 +169,7 @@ Partial Class U2_Thread_Loop_Test
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button_Thread)
         Me.Name = "U2_Thread_Loop_Test"
-        Me.Size = New System.Drawing.Size(511, 148)
+        Me.Size = New System.Drawing.Size(595, 155)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -161,4 +185,6 @@ Partial Class U2_Thread_Loop_Test
     Friend WithEvents Button1 As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
 End Class

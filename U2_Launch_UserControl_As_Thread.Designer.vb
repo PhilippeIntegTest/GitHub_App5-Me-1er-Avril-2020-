@@ -25,8 +25,8 @@ Partial Class U2_Launch_UserControl_As_Thread
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.U2_Thread_Loop_Test1 = New App_VB_Test_GitHub.U2_Thread_Loop_Test()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.U2_Thread_Loop_Test1 = New App_VB_Test_GitHub.U2_Thread_Loop_Test()
         Me.SuspendLayout()
         '
         'Label1
@@ -62,17 +62,17 @@ Partial Class U2_Launch_UserControl_As_Thread
     "ancé dans un thread." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "==> Donc une classe d'affichage (UserControl) ne peut s'ex" &
     "ecuter dans un WorkerThread !"
         '
+        'BackgroundWorker1
+        '
+        '
         'U2_Thread_Loop_Test1
         '
         Me.U2_Thread_Loop_Test1.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.U2_Thread_Loop_Test1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.U2_Thread_Loop_Test1.Location = New System.Drawing.Point(50, 97)
+        Me.U2_Thread_Loop_Test1.Location = New System.Drawing.Point(14, 97)
         Me.U2_Thread_Loop_Test1.Name = "U2_Thread_Loop_Test1"
-        Me.U2_Thread_Loop_Test1.Size = New System.Drawing.Size(460, 141)
+        Me.U2_Thread_Loop_Test1.Size = New System.Drawing.Size(606, 154)
         Me.U2_Thread_Loop_Test1.TabIndex = 2
-        '
-        'BackgroundWorker1
-        '
         '
         'U2_Launch_UserControl_As_Thread
         '
@@ -85,7 +85,7 @@ Partial Class U2_Launch_UserControl_As_Thread
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "U2_Launch_UserControl_As_Thread"
-        Me.Size = New System.Drawing.Size(540, 299)
+        Me.Size = New System.Drawing.Size(647, 299)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
