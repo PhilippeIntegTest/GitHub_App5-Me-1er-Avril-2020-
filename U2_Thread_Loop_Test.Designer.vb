@@ -155,7 +155,7 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(253, Byte), Integer))
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(366, 93)
+        Me.Label8.Location = New System.Drawing.Point(368, 105)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(224, 13)
         Me.Label8.TabIndex = 12
