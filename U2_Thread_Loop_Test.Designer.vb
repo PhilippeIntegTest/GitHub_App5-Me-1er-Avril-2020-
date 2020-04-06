@@ -35,6 +35,7 @@ Partial Class U2_Thread_Loop_Test
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button_Thread
@@ -155,11 +156,22 @@ Partial Class U2_Thread_Loop_Test
         '
         Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(253, Byte), Integer))
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(368, 105)
+        Me.Label8.Location = New System.Drawing.Point(368, 92)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(224, 13)
         Me.Label8.TabIndex = 12
         Me.Label8.Text = "Branch5: Commit1 - [Ve3Avril2020] - Label mauve"
+        '
+        'Label9
+        '
+        Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(7, Byte), Integer), CType(CType(66, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(368, 119)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(224, 13)
+        Me.Label9.TabIndex = 13
+        Me.Label9.Text = "Branch5: Commit3 - [Lu 6 avril 2020] - Label mauve"
         '
         'U2_Thread_Loop_Test
         '
@@ -167,6 +179,7 @@ Partial Class U2_Thread_Loop_Test
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -200,4 +213,5 @@ Partial Class U2_Thread_Loop_Test
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class
